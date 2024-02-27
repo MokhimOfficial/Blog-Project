@@ -1,0 +1,237 @@
+/* Reset default browser styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Style for header */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #714d4d;
+    padding: 2rem;
+  }
+  
+  .logo {
+    font-size: 3.5rem;
+  }
+  
+  .navigation {
+    display: flex;
+   
+  }
+  
+  .navigation a {
+    color: #d23333;
+    text-decoration: none;
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    transition: border-bottom 5s ease-in-out;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .navigation a:hover {
+    color: rgb(232, 232, 42);
+    background-color: #333;
+  }
+  .navigation button {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin-left: 1rem;
+  }
+  .navigation a:nth-child(2) {
+    margin-right: 20px;
+  }
+  
+  .hamburger-menu {
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .line {
+    display: block;
+    width: 24px;
+    height: 2px;
+    margin: 4px 0;
+    background-color: #000;
+  }
+  
+  .line:first-child {
+    margin-top: 0;
+  }
+  
+  .line:last-child {
+    margin-bottom: 0;
+  }
+  
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #ec1919;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #0b0d0b;
+}
+
+
+.search-container {
+  display: flex;
+  align-items: right;
+}
+
+.search-input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+.search-button {
+  padding: 8px 15px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: #0056b3;
+}
+
+
+  
+  /* Style for main content */
+  main {
+    padding: 2rem;
+    background-color: antiquewhite;
+  }
+  
+  .games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .game {
+    width: calc(100.33% - 1rem);
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border: 1px solid #9a8686;
+    border-radius: 2px;
+  }
+  .game-container {
+    display: inline-block;
+  
+    margin-right: 5px;
+  }
+  
+  .game-description {
+    display: inline-block;
+    
+    
+    width: 60%; /* adjust the width according to your preference */
+  }
+  
+  .game img {
+    
+    width: 70%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    shape-image-threshold: initial;
+  }
+  
+  
+  .game h4 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .game p {
+    font-size: rem;
+    text-shadow: #000;
+    
+  }
+
+
+  .query-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.query-box input {
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.query-input {
+    margin-bottom: 20px;
+}
+
+.query-button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.query-button:hover {
+    background-color: #0056b3;
+}
+
+
+
+
+  
+  
+  /* Style for footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+  }
+  
